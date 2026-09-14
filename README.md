@@ -10,7 +10,7 @@ The model combines historical financial analysis, operating forecasts, FCFF-base
 
 ---
 
-## 📊 Valuation Snapshot
+## Valuation Snapshot
 
 | Valuation Method             | Implied Value / Share | Upside vs. Current Price |
 | ---------------------------- | --------------------: | -----------------------: |
@@ -29,7 +29,7 @@ Infosys also trades at a discount to the selected peer group on both P/E and EV/
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project was built to develop and demonstrate practical skills in:
 
@@ -46,7 +46,7 @@ The model uses **FY2022–FY2026 historical financials** and forecasts **FY2027�
 
 ---
 
-## 🧮 DCF Methodology
+## DCF Methodology
 
 The DCF valuation follows a standard FCFF-based approach:
 
@@ -86,7 +86,7 @@ The terminal growth rate is a normalized long-term assumption and is not company
 
 ---
 
-## 📈 DCF Sensitivity
+## DCF Sensitivity
 
 The DCF valuation is particularly sensitive to changes in WACC and terminal growth.
 
@@ -102,7 +102,7 @@ This highlights the importance of WACC and terminal-growth assumptions in long-d
 
 ---
 
-## 🏢 Comparable Company Analysis
+## Comparable Company Analysis
 
 The relative valuation uses the following listed Indian IT peers:
 
@@ -127,7 +127,7 @@ The implied values are calculated by applying peer multiples to Infosys' LTM fin
 
 ---
 
-## 📉 Model Visualizations
+## Model Visualizations
 
 ### Historical Financials
 
@@ -147,7 +147,7 @@ The implied values are calculated by applying peer multiples to Infosys' LTM fin
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 stock-valuation-model/
@@ -170,14 +170,14 @@ stock-valuation-model/
 
 ---
 
-## 📂 Files
+## Files
 
 * [DCF Model](model/DCF_Model_v1.xlsx) — Complete Excel valuation model
 * [Valuation Summary](output/valuation_summary.pdf) — One-page valuation summary
 
 ---
 
-## 🧱 Model Structure
+## Model Structure
 
 The Excel workbook contains dedicated sections for:
 
@@ -193,7 +193,7 @@ The Excel workbook contains dedicated sections for:
 
 ---
 
-## 📚 Sources & Methodology
+## Sources & Methodology
 
 The model uses publicly available company financial information and market data.
 
@@ -203,7 +203,7 @@ The valuation combines both **intrinsic valuation (DCF)** and **relative valuati
 
 ---
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 * Base-case DCF value: **₹1,173 per share**
 * Current share price used: **₹1,036.50**
@@ -216,7 +216,7 @@ The model indicates moderate upside under the base-case assumptions, while also 
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 This project is intended for educational and portfolio purposes.
 
@@ -226,7 +226,7 @@ The outputs should not be interpreted as investment advice or a recommendation t
 
 ---
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project demonstrates the application of financial modeling and valuation concepts in a practical Excel-based equity research framework.
 
