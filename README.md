@@ -4,23 +4,6 @@ An Excel-based **Discounted Cash Flow (DCF) and Comparable Company Analysis** mo
 
 The model combines historical financial analysis, operating forecasts, FCFF-based DCF valuation, WACC calculation, sensitivity analysis, and relative valuation using peer-company multiples.
 
----
-
-## 📌 Project Overview
-
-This project was built to develop and demonstrate practical skills in:
-
-- Financial statement analysis
-- Financial forecasting
-- Discounted Cash Flow valuation
-- WACC and CAPM
-- Free Cash Flow to Firm (FCFF)
-- Comparable Company Analysis
-- Sensitivity analysis
-- Excel-based financial modeling
-
-The model uses **FY2022–FY2026 historical financials** and forecasts **FY2027–FY2031**.
-
 **Valuation Date:** 10-Sep-2026  
 **Company:** Infosys Limited  
 **Currency:** ₹ crore unless otherwise stated
@@ -46,6 +29,23 @@ Infosys also trades at a discount to the selected peer group on both P/E and EV/
 
 ---
 
+## 📌 Project Overview
+
+This project was built to develop and demonstrate practical skills in:
+
+- Financial statement analysis
+- Financial forecasting
+- Discounted Cash Flow valuation
+- WACC and CAPM
+- Free Cash Flow to Firm (FCFF)
+- Comparable Company Analysis
+- Sensitivity analysis
+- Excel-based financial modeling
+
+The model uses **FY2022–FY2026 historical financials** and forecasts **FY2027–FY2031**.
+
+---
+
 ## 🧮 DCF Methodology
 
 The DCF valuation follows a standard **FCFF-based approach**:
@@ -59,13 +59,11 @@ The DCF valuation follows a standard **FCFF-based approach**:
 7. Bridge Enterprise Value to Equity Value using cash and debt.
 8. Divide Equity Value by shares outstanding to derive intrinsic value per share.
 
-### DCF Formula
-
-**FCFF**
+### FCFF
 
 `FCFF = NOPAT + D&A − Capex − Change in NWC`
 
-**Terminal Value**
+### Terminal Value
 
 `TV = FCFFₙ × (1 + g) / (WACC − g)`
 
@@ -134,10 +132,6 @@ The implied values are calculated by applying peer multiples to Infosys' LTM fin
 ---
 
 ## 📉 Model Visualizations
-
-### Revenue — Historical vs. Forecast
-
-![Revenue — Historical vs. Forecast](screenshots/inputs.png)
 
 ### Historical Financials
 
